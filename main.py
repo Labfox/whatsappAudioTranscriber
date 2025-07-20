@@ -4,7 +4,7 @@ import whisper
 import pprint
 import os
 
-model = whisper.load_model("medium")
+model = whisper.load_model("medium") # possible options: base, medium, large
 
 def my_event_callback(whatsapp, event_data):
     if event_data["eventType"] == "Message" and \
