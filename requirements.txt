@@ -1,0 +1,2 @@
+whatsfly-labfox
+openai-whisper
